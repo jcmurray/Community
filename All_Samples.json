@@ -886,6 +886,14 @@
      "note": "<p>For Java-based BlackBerry Smartphones; requires BB 7.0 or above</p><p>Also see the <a href='NFC.html'>NFC</a> Wiki page</p>",
      "tags": [ "java", "client", "nfc", "bbos" ]
  },
+ "NfcSharing": {
+     "desc": "Sharing Data and Files using NFC and Bluetooth",
+     "url": "https://github.com/blackberry/Cascades-Community-Samples/tree/master/NfcSharing",
+     "repo": "Cascades-Community-Samples",
+     "repourl": "http://github.com/blackberry/Cascades-Community-Samples",
+     "note": "focusses on those that allow you to share data and files either directly using NFC or using NFC to negotiate a Bluetooth connection which is then used to transfer the data as defined by the NFC Forum Connection Handover standard.",
+     "tags": [ "native", "client", "nfc", "bb10", "cascades" ]
+ },
  "NfcSnepResponder": {
      "desc": "Shows how to transfer NDEF messages between NFC-enabled BlackBerry smartphones using the Simple NDEF Exchange Protocol (SNEP)",
      "url": "https://github.com/blackberry/Cascades-Community-Samples/tree/master/NfcSnepResponder",
@@ -1016,6 +1024,14 @@
      "repo": "Cascades-Samples",
      "repourl": "http://github.com/blackberry/Cascades-Samples",
      "tags": [ "native", "client", "bb10", "cascades", "sensor", "accelerometer" ]
+ },
+ "PasswordSample": {
+     "desc": "How to use some of  the Blackberry 10 security APIs",
+     "url": "https://github.com/blackberry/Cascades-Community-Samples/tree/master/PasswordSample",
+     "repo": "Cascades-Community-Samples",
+     "repourl": "http://github.com/blackberry/Cascades-Community-Samples",
+     "note": "The purpose of this application is to demonstrate how the BlackBerry 10 Security Builder API together with standard features of Qt and Cascades might be used to implement a basic user ID and password based login screen whilst allowing the user credentials to be stored safely locally (as in this case) or remotely using one-way encryption of the password rendering it unusable to those with access to the credentials store.",
+     "tags": [ "native", "client", "nfc", "bb10", "cascades", "security" ]
  },
  "Payment": {
      "desc": "Shows how to use the BlackBerry Payment service from a BlackBerry WebWorks App",
